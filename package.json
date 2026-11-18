@@ -1,0 +1,19 @@
+{
+  "name": "stocktrace",
+  "version": "1.0.0",
+  "description": "StockTrace – Inventory Movement Audit and Billing",
+  "scripts": {
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "start": "node server/src/server.js",
+    "seed": "node server/src/scripts/seed.js",
+    "dev:server": "node server/src/server.js",
+    "dev:client": "npm run dev --prefix client",
+    "test": "npm test --prefix server"
+  },
+  "keywords": ["inventory", "audit", "billing", "pos", "fifo", "socketio", "react", "mongodb"],
+  "author": "StockTrace",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
