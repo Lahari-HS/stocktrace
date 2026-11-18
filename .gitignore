@@ -7,3 +7,5 @@ client/node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+server/src/scripts/testConnection.mjs
